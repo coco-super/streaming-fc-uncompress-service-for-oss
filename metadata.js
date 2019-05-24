@@ -1,19 +1,11 @@
 module.exports = {
-  'name': 'helloworld',                                 
-  'description': 'Print hello world',                    
+  'name': 'zip compress',                                 
+  'description': 'Auto-decompression of OSS uploading super-large zip compressed files by function computer',                    
   'userPrompt': [                                         
-    {
-        'type': 'input',                              
-        'name': 'service',                                 
-        'message': 'Please input serviceName?',              
-        'default': '{{ projectName }}'                 
-      
-    },
     {
       'type': 'input',                             
       'name': 'bucketName',                                 
       'message': 'Please input bucketName?',               
-      'default': '{{ projectName }}'                
     },
     {
       'type': 'input',                             
