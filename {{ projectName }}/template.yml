@@ -9,7 +9,7 @@ Resources:
       Type: 'Aliyun::Serverless::Function'
       Properties:
         Handler: index.handler
-        Runtime: nodejs6
+        Runtime: python3
         CodeUri: './'
       Events:
         {{ projectName+'-trigger' }}:
@@ -21,5 +21,5 @@ Resources:
               - oss:ObjectCreated:PostObject      
             Filter: 
               Key:
-                Prefix: source/
-                Suffix: .png
+                Prefix: {{ prefix }}  # super/
+                Suffix: {{ suffix }}  # .zip or .jar
