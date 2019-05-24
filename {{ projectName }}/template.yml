@@ -12,13 +12,13 @@ Resources:
         Runtime: nodejs6
         CodeUri: './'
       Events:
-        oss-trigger-name:
+        {{ projectName+'-trigger' }}:
           Type: OSS # trigger type
           Properties:
             BucketName: {{ bucketName }} # oss bucket name
             Events:
-              - oss:ObjectCreated:*
-              - oss:ObjectRemoved:DeleteObject        
+              - oss:ObjectCreated:PutObject
+              - oss:ObjectCreated:PostObject      
             Filter: 
               Key:
                 Prefix: source/
