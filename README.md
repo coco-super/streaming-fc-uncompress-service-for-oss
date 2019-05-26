@@ -11,8 +11,6 @@
 <a name="QqxEg"></a>
 ## 快速开始
 
----
-
 <a name="lGvKc"></a>
 ### 1.安装 node 
 ```bash
@@ -31,9 +29,13 @@ fun 工具的某些子命令可能会用到 docker，所以你需要安装好 do
 
 <a name="dP8XW"></a>
 ### 3.通过 fun 模板生成项目骨架
-使用 fun init 命令可以快捷的将本模板项目初始化到本地，执行命令 fun init -n xxx https://github.com/coco-super/streaming-fc-service-for-oss，其中 -n 表示要作为文件夹生成的项目名称。默认值是 fun-app。
+使用 fun init 命令可以快捷的将本模板项目初始化到本地，执行命令 ：
 
-更多fun init 命令格式选项说明请参考云栖文章[开发函数计算的正确姿势 —— 使用 Fun Init 初始化项目](https://yq.aliyun.com/articles/674363)。
+```powershell
+fun init -n xxx https://github.com/coco-super/streaming-fc-service-for-oss
+```
+
+其中 -n 表示要作为文件夹生成的项目名称。默认值是 fun-app。更多fun init 命令格式选项说明请参考云栖文章[开发函数计算的正确姿势 —— 使用 Fun Init 初始化项目](https://yq.aliyun.com/articles/674363)。
 
 ```powershell
 PS D:\> fun init -n demo  https://github.com/coco-super/streaming-fc-uncompress-service-for-oss
