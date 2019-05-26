@@ -89,12 +89,12 @@ service demo deploy success
 ### 上传压缩文件到 OSS
 在 coco-superme 的 bucket 中上传名为 fun.zip 的压缩文件
 
-![1558871820317-70017772-6c5c-4cf0-9b70-2ade48095cd0.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/199853/1558873091913-04e78900-92f6-43a6-b880-e7b10949f213.png#align=left&display=inline&height=341&name=1558871820317-70017772-6c5c-4cf0-9b70-2ade48095cd0.png&originHeight=341&originWidth=770&size=32950&status=done&width=770)
+![1558871820317-70017772-6c5c-4cf0-9b70-2ade48095cd0.png](http://cdn-trigger.sunfeiyu.top/img/1558871820317-70017772-6c5c-4cf0-9b70-2ade48095cd0.png?Expires=1558876856&OSSAccessKeyId=TMP.AgFcLVR7w4ijV0QBzW1aUPuI_EGAGT-ENY0LmK1-2eiH9qnQW8RBMlD8WOn3MC4CFQDRDUZhKEdU8zCQ-N892idbg7b5_gIVAMGp5wmxMUZux75LTCOVLWpdbnIi&Signature=uY%2B9ID8Ga0R77sZeSb%2FDhw3LKKs%3D)
 
 
 上传成功后，触发函数计算自动压缩 fun.zip 文件并上传回 OSS 指定目录。指定目录以上传文件名为目录名。<br />刷新页面，发现 fun/ 目录下已生成解压后文件。
 
-![1558871923351-63add055-15c0-472e-87ce-f0a4a3a6ae12.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/199853/1558873101656-5759994a-dbb6-47be-9008-9da6040790ef.png#align=left&display=inline&height=308&name=1558871923351-63add055-15c0-472e-87ce-f0a4a3a6ae12.png&originHeight=308&originWidth=589&size=25231&status=done&width=589)
+![1558871923351-63add055-15c0-472e-87ce-f0a4a3a6ae12.png](http://cdn-trigger.sunfeiyu.top/img/1558871923351-63add055-15c0-472e-87ce-f0a4a3a6ae12.png?Expires=1558876912&OSSAccessKeyId=TMP.AgFcLVR7w4ijV0QBzW1aUPuI_EGAGT-ENY0LmK1-2eiH9qnQW8RBMlD8WOn3MC4CFQDRDUZhKEdU8zCQ-N892idbg7b5_gIVAMGp5wmxMUZux75LTCOVLWpdbnIi&Signature=qvYU5qRSR5XJeOjjczq59VFMqN0%3D)
 
 <a name="2473ec5a"></a>
 ## 参考阅读
