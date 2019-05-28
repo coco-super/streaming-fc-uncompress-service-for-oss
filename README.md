@@ -8,6 +8,7 @@
 
 本模板并没有完全把压缩文件的内容全部通过 FC 作为 中转站来处理，而是采用**流式法**，适用于较大文件的处理。关于流式法以及函数计算实现 oss 上传压缩文件自动压缩的处理，请参照云栖社区文章[函数计算实现 oss 上传超大 zip 压缩文件的自动解压处理](https://yq.aliyun.com/articles/680958)。
 
+另外如果您没有超大 zip 自动解压的需求，请使用另一[简单模板](https://github.com/coco-super/simple-fc-uncompress-service-for-oss)，一切在内存中完成，适合较小的压缩文件解压。<br />
 <a name="QqxEg"></a>
 ## 快速开始
 
