@@ -102,3 +102,4 @@ service demo deploy success
 ## 参考阅读
 
 1. [三分钟学会如何在函数计算中使用 puppeteer](https://yq.aliyun.com/articles/602877)
+1. [Fun (Fun with Serverless) 工具](https://github.com/aliyun/fun/)
